@@ -1,6 +1,16 @@
-# PNETLab sur Infomaniak Public Cloud — Déploiement Terraform
+# PNETLab sur Infomaniak Public Cloud GIT
+
+[![hackmd-github-sync-badge](https://hackmd.io/xUQAFKQ1QtaBtll52yI7RA/badge)](https://hackmd.io/xUQAFKQ1QtaBtll52yI7RA)
+
+
+![image](https://hackmd.io/_uploads/ryElWhe1Mx.png)
+
 ## Par : Alexandra ASSAGA
 ## Date: 12.05.2026
+
+
+---
+
 ## Architecture déployée
 
 ```
