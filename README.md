@@ -26,7 +26,7 @@
 
 ## Introduction
 
-Ce projet documente le déploiement automatisé d'une instance **PNETLab** (Packet Network Emulator Lab) sur le **cloud public Infomaniak**, en utilisant **Terraform** comme outil d'Infrastructure as Code (IaC).
+Ce projet explique le déploiement automatisé d'une instance **PNETLab** (Packet Network Emulator Lab) sur le **cloud public Infomaniak**, en utilisant **Terraform** comme outil d'Infrastructure as Code (IaC).
 
 PNETLab est une plateforme d'émulation réseau multi-vendeurs permettant de simuler des équipements réels tels que des routeurs Cisco, des firewalls Palo Alto, FortiGate, des switches Juniper, etc. Elle est largement utilisée pour la formation, la préparation aux certifications réseau (CCNA, CCNP, CCIE, NSE, PCNSE) et pour les tests d'infrastructure.
 
@@ -951,7 +951,7 @@ terraform destroy \
 
 ## Conclusion
 
-Ce projet a permis de déployer avec succès une instance PNETLab entièrement fonctionnelle sur le cloud public Infomaniak en utilisant Terraform comme outil d'IaC. L'ensemble de l'infrastructure (réseau, sécurité, stockage, VM, IP publique) est provisionné de manière automatisée et reproductible en une seule commande `terraform apply`.
+Ce projet m'a permis de déployer avec succès une instance PNETLab entièrement fonctionnelle sur le cloud public Infomaniak en utilisant Terraform comme outil d'IaC. L'ensemble de l'infrastructure (réseau, sécurité, stockage, VM, IP publique) est provisionné de manière automatisée et reproductible en une seule commande `terraform apply`.
 
 Plusieurs obstacles techniques ont été rencontrés et résolus en cours de projet :
 - Incompatibilité du repo HashiCorp APT avec Ubuntu 25.04 → résolu par installation via binaire
