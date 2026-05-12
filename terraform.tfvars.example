@@ -1,0 +1,31 @@
+###############################################################
+# terraform.tfvars.example
+# Renommer en terraform.tfvars et remplir avec vos valeurs
+# ⚠️  Ne jamais commiter ce fichier dans Git !
+###############################################################
+
+# Authentification (récupérer depuis Horizon > Accès API > Télécharger le fichier RC)
+project_name = "PCP-LPGJL2D"
+username     = "PCU-LPGJL2D"
+password     = "VOTRE_MOT_DE_PASSE_OPENSTACK_INFOMANIAK"
+region       = "dc4-a"
+
+# Image PNETLab (chemin local vers le fichier QCOW2)
+# Télécharger l'OVA depuis https://pnetlab.com/pages/download
+# puis convertir : qemu-img convert -f vmdk -O qcow2 pnetlab-disk.vmdk pnetlab.qcow2
+pnetlab_image_path = "./pnetlab.qcow2"
+
+# Réseau externe Infomaniak (vérifier avec : openstack network list --external)
+external_network_id = "7b63a72c-6b02-4b3f-be40-b7948e3c5843"
+floating_ip_pool    = "ext-floating1"
+availability_zone   = "dc4-a-02"
+
+# ⚠️  Restreindre à votre IP publique pour la sécurité
+# Votre IP publique : curl ifconfig.me
+admin_cidr = "YOUR_PUBLIC_IP/32"
+
+# SSH : chemin vers votre clé publique
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+# Mot de passe interface web PNETLab
+pnetlab_admin_password = "ChangeMe@2025!"
