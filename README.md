@@ -1,7 +1,10 @@
 # PNETLab sur Infomaniak Public Cloud
 
-## Par : Alexandra ASSAGA
-## Date : 12.05.2026
+**Auteure :** Alexandra ASSAGA
+
+**Date :** Mai 2026
+
+![image_pnetlab](https://hackmd.io/_uploads/HyyFboWyGx.png)
 
 ---
 
@@ -963,4 +966,4 @@ Le principal point d'amélioration restant est l'activation du **Nested KVM** pa
 
 ---
 
-*Documentation réalisée le 12.05.2026 — Alexandra ASSAGA*
+*Documentation rédigée le 12.05.2026 par Alexandra ASSAGA*
